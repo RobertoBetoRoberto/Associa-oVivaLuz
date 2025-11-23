@@ -1,0 +1,351 @@
+@charset "UTF-8";
+nav{
+    background-color: #02a3d9;
+    max-height: 17%;
+    min-height: 90px;
+    min-width: 101%;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    position: fixed;
+    z-index: 1000;
+}
+nav ul li{
+    display: inline;
+    font-size: 30px;
+    float: left;
+    margin: 1.5% 1% 0 1%;
+}
+nav ul li a{
+    color: #bcE2ef;
+    padding: 4px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #137299;
+}
+nav img{
+    float: left;
+    margin-left: 2%;
+    margin-top: 0.8%;
+    margin-bottom: 0.5%;
+    margin-right: 12%;
+    border-radius: 75px;
+}
+h1, h2{
+    text-align: center;
+}
+article h1 {
+    position: relative;
+    top: -50px;
+}
+article img{
+    border-radius: 75px;
+    margin-left: 18.5%;
+    position: relative;
+    top: -30px;
+}
+article, section{
+    width: 85%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 0 4% 0 4%;
+    border-radius: 75px;
+}
+
+body{
+    background-color: #bcE2ef;
+}
+
+form{
+    background-color: #01A2D8;
+    padding: 20px;
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    align-items: end;
+    border-right: solid 10px #135a72;
+    border-bottom: solid 15px #135a72;
+    border-radius: 75px;
+    padding-right: 5%;
+    padding-top: 6%;
+}
+button{
+    border-radius: 75px;
+    height: 60px;
+    width: 150px;
+    align-self: center;
+    margin-left: 15%;
+    margin-top: 4%;
+    font-size: 175%;
+    border-right: solid 8px #000000;
+    border-bottom: solid 8px #000000;
+}
+button:hover{
+    background-color: #137299;
+    color: #bcE2ef;
+    font-weight: bolder;
+    border-radius: 75px;
+    border-right: solid 11px #01A2D8;
+    border-bottom: solid 11px #01A2D8;
+}
+label{
+    font-size: 25px;
+    padding-top: 2%;
+}
+input{
+    height: 80%;
+}
+
+/* Classes */
+
+/* ----------------------------------- */
+/* Roberto */
+/* espaçamento do topo da página para abrigar o nav */
+.home{
+    margin-top: 13%;
+    padding-top: 5%;
+}
+/* espaçamento acima do titúlo */
+.paginas{
+    padding-top: 3%;
+}
+/* quebra de páginas */
+.vazio{
+    width: 95%;
+    height: 100px; 
+    background-color: #ffffff;
+}
+.container{
+    display: flex;
+    align-items: space-between;
+    gap: 15%;
+    max-width: 75%;
+    margin-left: 13%;
+}
+.container img{
+    border-radius: 75px;
+}
+.container2{
+    display: flex;
+    align-items: space-between;
+    gap: 40%;
+    max-width: 100%;
+    margin: 0 30%;
+}
+.container2 a{
+    text-decoration: none;
+}
+.container2 b{
+    font-size: 35px;
+}
+.container2 .facebook{
+    background-color: #1877F2;
+    border-radius: 100px;
+}
+.container2 .facebook b{
+    color: #1877F2;
+    background-color: #ffffff;
+}
+.container2 .facebook :hover{
+    color: #ffffff;
+    background-color: #1877F2;
+}
+.container2 .instagram{
+    background-color: #d62976;
+    border-radius: 15px;
+}
+.container2 .instagram b{
+    color: #d62976;
+    background-color: #ffffff;
+}
+.container2 .instagram :hover{
+    color: #ffffff;
+    background-color: #d62976;
+}
+
+/* tag para corrigir o espaçamento entre o titulo e o nav da página contribua e página home*/
+.espaco{
+    width: 95%;
+    height: 100px; 
+    background-color: #bcE2ef;
+}
+.navpg{
+    height: 1px;
+}
+/* ----------------------------------- */
+/* TABELA: RAFAEL */
+
+table{
+    width: 90%; 
+    height: 20em;
+    margin: 0 auto; 
+    border-collapse: collapse;
+    text-align: center;
+    border: solid 2px #000000;
+}
+
+tr, td, th{
+    border: solid 2px
+}
+
+th{
+    height: 20%;
+    background-color: #02a3d9;
+    color: #bcE2ef;
+    border: solid 2px hwb(0 0% 100%);
+}
+
+.programacao_tabela{
+    width: 20;
+    margin: 1%;
+    background-color: #02a3d9;
+    color: #bcE2ef;
+    border: solid 2px hwb(0 0% 100%);
+}
+
+ .campo_tabela{
+    width: 20%;
+    padding: 2%;
+    height: 20%;
+    background-color:#bcE2ef ;
+ }
+
+
+ /* ---------------------------------------------- */
+ /* EQUIPE: RAFAEL */
+
+ .imagens_equipe{
+    display: flex;
+    flex: row wrap;
+    justify-content: space-around;
+ }
+
+ .membros{
+    flex: column wrap;
+
+ }
+
+ .membros p{
+    text-align: center;
+ }
+
+ .membros img{
+    border-radius: 150px;
+ }
+
+ /* ---------------------------------------------------- */
+ /* Footer: Rafael */
+
+ footer{
+    background-color: #01A2D8;
+    width: 102%;
+    margin-bottom: -5%;
+    padding-top: 1%;
+    min-height: 25px;
+ }
+
+ footer img{
+    border-radius: 20%;
+ }
+
+ .informacoes_footer{
+    display: flex;
+    flex: row wrap;
+    justify-content: center ;
+ }
+
+
+ /*---------------------------------------------------*/
+
+
+ /*---------------------------------------------------*/
+ /*Página Homenagem*/
+
+ #homenagem {
+    display: flex;
+
+    #sectionTextoHomenagem {
+        margin: 0;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+            margin-top: 4rem;
+        }
+    }
+
+    #sectionImagemLado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 3rem;
+
+    h4 {
+        margin-block: 1rem;
+        }
+    }
+
+
+    #titulo-homenagem {
+        text-align: center;
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    img {
+        margin-block: 1rem;
+      
+    }
+
+ }
+
+  /*---------------------------------------------------*/
+ /*Tipografia*/
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+h2 {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal
+}
+
+/* Contribua */
+.qrcode{
+    padding-top: 5%;
+    padding-left: 38%;
+}
+.qrcodeimg{
+    border-radius: 10%;
+}
+
+
+#fraseMotivadora {
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
