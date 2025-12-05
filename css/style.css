@@ -94,12 +94,15 @@ button:hover{
 }
 label{
     font-size: 25px;
+    color: #bcE2ef;
     padding-top: 2%;
 }
 input{
     height: 80%;
 }
-
+small{
+    color: #bcE2ef
+}
 /* Classes */
 
 /* ----------------------------------- */
